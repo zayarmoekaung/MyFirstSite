@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My First Site"
+theme = "parsa-hugo"
+
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/headroom/headroom.js"
+  [[params.plugins.js]]
+  URL = "plugins/instafeed/instafeed.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/masonry/masonry.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/smooth-scroll/smooth-scroll.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+[params]
+logo = "AOT.png"
+home ="Home"
+homeLayoutToggle = true
+description = " This is the SoftIntelligence Home Page"
+
+[params.preloader]
+     enable = true
+
+[menu]
+[[menu.main]]
+name = "All memes"
+url = "posts"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "about"
+[[menu.main]]
+name = "Contact"
+url = "contact"
+
+[params.search]
+	enable = true  
+[params.footer]
+ [[params.footer.addresses]]	 
+ 	address = " Yangon "  
+[[params.footer.contacts]]
+    contactInfo = "Tel: +95 09 42816818"
+[[params.footer.contacts]]
+	contactInfo = "Tel: zayarmoekaung0@gmail.com"     	
